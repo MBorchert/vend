@@ -4,10 +4,8 @@
     "version": "0.0.1",
     "frcYear": "2024",
     "uuid": "577bb29c-c160-4434-bdaf-e0ff43f7ccb3",
-    "mavenUrls": [
-        "ThisNeedsToBeTheRootMavenUrl"
-    ],
-    "jsonUrl": "InsertSomeUrlHere",
+    "mavenUrls": [ ],
+    "jsonUrl": "git@github.com:MBorchert/vend.git",
     "javaDependencies": [
         {
             "groupId": "com.mine.frc",
