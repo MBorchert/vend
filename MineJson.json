@@ -1,0 +1,74 @@
+{
+    "fileName": "MineJson.json",
+    "name": "MineDep",
+    "version": "0.0.1",
+    "frcYear": "2024",
+    "uuid": "577bb29c-c160-4434-bdaf-e0ff43f7ccb3",
+    "mavenUrls": [
+        "ThisNeedsToBeTheRootMavenUrl"
+    ],
+    "jsonUrl": "InsertSomeUrlHere",
+    "javaDependencies": [
+        {
+            "groupId": "com.mine.frc",
+            "artifactId": "Mine-java",
+            "version": "0.0.1"
+        }
+    ],
+    "jniDependencies": [
+        {
+            "groupId": "com.mine.frc",
+            "artifactId": "Mine-driver",
+            "version": "0.0.1",
+            "skipInvalidPlatforms": true,
+            "isJar": false,
+            "validPlatforms": [
+                "windowsx86-64",
+                "windowsx86",
+                "linuxarm64",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxarm32",
+                "osxuniversal"
+            ]
+        }
+    ],
+    "cppDependencies": [
+        {
+            "groupId": "com.mine.frc",
+            "artifactId": "Mine-cpp",
+            "version": "0.0.1",
+            "libName": "Mine",
+            "headerClassifier": "headers",
+            "sharedLibrary": false,
+            "skipInvalidPlatforms": true,
+            "binaryPlatforms": [
+                "windowsx86-64",
+                "windowsx86",
+                "linuxarm64",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxarm32",
+                "osxuniversal"
+            ]
+        },
+        {
+            "groupId": "com.mine.frc",
+            "artifactId": "Mine-driver",
+            "version": "0.0.1",
+            "libName": "MineDriver",
+            "headerClassifier": "headers",
+            "sharedLibrary": false,
+            "skipInvalidPlatforms": true,
+            "binaryPlatforms": [
+                "windowsx86-64",
+                "windowsx86",
+                "linuxarm64",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxarm32",
+                "osxuniversal"
+            ]
+        }
+    ]
+}
